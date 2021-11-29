@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kosas",
+  "info": {
+    "name": "kosa",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idishlar": {
+      "via": "kosas",
+      "model": "idishlar"
+    },
+    "nomi": {
+      "type": "string"
+    },
+    "sum": {
+      "type": "string"
+    },
+    "dollar": {
+      "type": "string"
+    }
+  }
+}

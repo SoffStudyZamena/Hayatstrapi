@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/piyolas",
+      "handler": "piyola.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/piyolas/count",
+      "handler": "piyola.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/piyolas/:id",
+      "handler": "piyola.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/piyolas",
+      "handler": "piyola.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/piyolas/:id",
+      "handler": "piyola.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/piyolas/:id",
+      "handler": "piyola.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

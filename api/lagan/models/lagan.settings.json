@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lagans",
+  "info": {
+    "name": "lagan",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomi": {
+      "type": "string"
+    },
+    "idishlar": {
+      "via": "lagans",
+      "model": "idishlar"
+    },
+    "sum": {
+      "type": "string"
+    },
+    "dollar": {
+      "type": "string"
+    }
+  }
+}

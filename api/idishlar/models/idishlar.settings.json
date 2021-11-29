@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "idishlars",
+  "info": {
+    "name": "idishlar",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nomi": {
+      "type": "string"
+    },
+    "piyolas": {
+      "via": "idishlar",
+      "collection": "piyola"
+    },
+    "kosas": {
+      "via": "idishlar",
+      "collection": "kosa"
+    },
+    "tarelkas": {
+      "via": "idishlar",
+      "collection": "tarelka"
+    },
+    "choynaks": {
+      "via": "idishlar",
+      "collection": "choynak"
+    },
+    "lagans": {
+      "via": "idishlar",
+      "collection": "lagan"
+    },
+    "rasm": {
+      "type": "string"
+    }
+  }
+}

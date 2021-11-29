@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/choynaks",
+      "handler": "choynak.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/choynaks/count",
+      "handler": "choynak.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/choynaks/:id",
+      "handler": "choynak.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/choynaks",
+      "handler": "choynak.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/choynaks/:id",
+      "handler": "choynak.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/choynaks/:id",
+      "handler": "choynak.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

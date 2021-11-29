@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/idishlars",
+      "handler": "idishlar.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/idishlars/count",
+      "handler": "idishlar.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/idishlars/:id",
+      "handler": "idishlar.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/idishlars",
+      "handler": "idishlar.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/idishlars/:id",
+      "handler": "idishlar.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/idishlars/:id",
+      "handler": "idishlar.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

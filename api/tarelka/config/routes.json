@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tarelkas",
+      "handler": "tarelka.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarelkas/count",
+      "handler": "tarelka.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tarelkas/:id",
+      "handler": "tarelka.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tarelkas",
+      "handler": "tarelka.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tarelkas/:id",
+      "handler": "tarelka.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tarelkas/:id",
+      "handler": "tarelka.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
